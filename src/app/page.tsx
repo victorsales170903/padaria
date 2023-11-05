@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     // Simulando uma solicitação GET
-    fetch('http://localhost:3000/api/pedidos', {
+    fetch('/api/pedidos', {
       method: 'GET',
     })
       .then((response) => {
@@ -33,7 +33,7 @@ export default function Home() {
 
   const handleDelete = (id: number) => {
     // Simulando uma solicitação DELETE
-    fetch('http://localhost:3000/api/pedidos', {
+    fetch('/api/pedidos', {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
@@ -60,7 +60,7 @@ export default function Home() {
       qtd_paes: 10,
     };
 
-    fetch('http://localhost:3000/api/pedidos', {
+    fetch('/api/pedidos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
