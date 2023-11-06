@@ -93,7 +93,7 @@ async function handleGetRequest(
 ) {
   try {
     const pedidos: PedidoResponse[] = await prisma.pedidos.findMany();
-
+    const pedidosCount = await prisma.pedidos.count();
     const response: GetPedidosResponse = {
       data: pedidos,
     };
