@@ -1,34 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:wght@100;300;400;700&family=Open+Sans&family=Oswald:wght@700&family=Poppins:wght@400;900&family=Quattrocento+Sans&family=Raleway:wght@900&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-
-.header{
+.header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 30vh;
   width: 100vw;
-  background: #965A1B;
+  background: #965a1b;
   align-items: center;
 }
 
-.infos{
+.infos {
   display: flex;
   width: 65vw;
 }
 
-section{
+section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 1.5vw;
   width: 65vw;
   height: 15vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 1.5vw;
   border: none;
   border-radius: 2px;
@@ -38,45 +37,42 @@ section{
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
-a{
+a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-
-
-section p{
+section p {
   font-family: Poppins;
   font-size: 36px;
   font-weight: 500;
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
-.entrada{
+.entrada {
   background-color: #5f3305;
-  color: #FFF;
+  color: #fff;
 }
 
-.body{
+.body {
+  display: flex;
+  flex-direction: column;
   padding-top: 15vh;
   padding-left: 19vw;
   padding-right: 19vw;
-  display: flex;
   width: 62vw;
-  height: 55vh;
-  flex-direction: row;
-  background: #E5CF94;
-
+  gap: 1.5rem;
+  height: 100%;
+  min-height: 60vh;
+  background: #e5cf94;
 }
 
-.add{
+.add {
   width: 201px;
   height: 24px;
   font-family: Poppins;
@@ -85,10 +81,57 @@ section p{
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #5F3305;
+  color: #5f3305;
 }
 
-.logo{
+.logo {
   margin-top: 1vh;
   scale: 0.55;
+}
+
+.pedidos .nome {
+  color: #5f3305;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pedidos .desc {
+  color: #5f3305;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pedidos .valor {
+  color: #5f3305;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pedidos .titulo {
+  color: #5f3305;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pedidos .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  align-self: stretch;
+  height: 4.8125rem;
+  flex-shrink: 0;
+  background-color: #ffffffcc;
+  border-radius: 0.5rem;
 }
