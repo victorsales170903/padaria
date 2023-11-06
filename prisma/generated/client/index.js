@@ -113,7 +113,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/marcio/projetos/OUTROS/padaria/prisma/generated/client",
+      "value": "/home/marcio/outros/padaria/prisma/generated/client",
       "fromEnvVar": null
     },
     "config": {
@@ -140,7 +140,6 @@ const config = {
     "db"
   ],
   "activeProvider": "mysql",
-  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
@@ -150,8 +149,7 @@ const config = {
     }
   },
   "inlineSchema": "Ly8gc2NoZW1hLnByaXNtYQpnZW5lcmF0b3IgY2xpZW50IHsKICBwcm92aWRlciA9ICJwcmlzbWEtY2xpZW50LWpzIgogIG91dHB1dCAgID0gIi4vZ2VuZXJhdGVkL2NsaWVudCIKfQoKZGF0YXNvdXJjZSBkYiB7CiAgcHJvdmlkZXIgPSAibXlzcWwiCiAgdXJsICAgICAgPSAibXlzcWw6Ly9yb290OnJvb3RAbG9jYWxob3N0OjMzMDYvcGFkYXJpYSIKfQoKbW9kZWwgcGVkaWRvcyB7CiAgaWQgICAgSW50ICAgIEBpZCBAZGVmYXVsdChhdXRvaW5jcmVtZW50KCkpCiAgbm9tZSBTdHJpbmcgCiAgcXRkX3BhZXMgSW50Cn0K",
-  "inlineSchemaHash": "9bf74993cd1faa8a5ef3d0cfb15116233a935804d63c04d08d85c680f5e7d58a",
-  "noEngine": false
+  "inlineSchemaHash": "9bf74993cd1faa8a5ef3d0cfb15116233a935804d63c04d08d85c680f5e7d58a"
 }
 
 const fs = require('fs')
