@@ -30,7 +30,6 @@ export default function FormPedido({ onClose, onAddPedido }: FormPedidoProps) {
       <div className="form-container">
         <h2>Adicionar pessoa à fila</h2>
         <label>
-          Nome Completo:
           <input
             type="text"
             value={nome}
@@ -39,12 +38,12 @@ export default function FormPedido({ onClose, onAddPedido }: FormPedidoProps) {
           />
         </label>
         <label>
-          Total de Pães:
           <input
             type="number"
-            value={qtdPaes}
+            value={qtdPaes == 0 ? '' : qtdPaes}
             min={0}
-            onChange={(e) => setQtdPaes(Math.max(parseInt(e.target.value)), 0)}
+            placeholder="Total de pães"
+            onChange={(e) => setQtdPaes(parseInt(e.target.value))}
           />
         </label>
         <div className="button-container">
