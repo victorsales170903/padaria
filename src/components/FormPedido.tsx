@@ -40,7 +40,7 @@ export default function FormPedido({ onClose, onAddPedido }: FormPedidoProps) {
         <label>
           <input
             type="number"
-            value={qtdPaes == 0 ? '' : qtdPaes}
+            value={qtdPaes}
             min={0}
             placeholder="Total de pães"
             onChange={(e) => setQtdPaes(parseInt(e.target.value))}
