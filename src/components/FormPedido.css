@@ -1,4 +1,9 @@
 .form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,8 +50,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border: none;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
 .submit-button {
   width: 260px;
   height: 60px;
