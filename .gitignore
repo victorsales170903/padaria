@@ -15,7 +15,8 @@
 
 # production
 /build
-
+/dist
+/prisma/
 # misc
 .DS_Store
 *.pem
@@ -34,3 +35,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+prisma/schema.prisma
+prisma/generated/client/edge.js
+prisma/generated/client/index-browser.js
+prisma/generated/client/index.d.ts
+prisma/generated/client/index.js
+prisma/generated/client/package.json
+prisma/generated/client/schema.prisma
+prisma/generated/client/runtime/edge-esm.js
+prisma/generated/client/runtime/edge.js
+prisma/generated/client/runtime/index-browser.js
+prisma/generated/client/runtime/library.js
